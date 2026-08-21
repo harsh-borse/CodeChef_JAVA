@@ -20,7 +20,7 @@ Essentially, it returns the larger of the two values `x` and `y`.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:30:47.194Z  
+**Submitted:** 2026-08-21T13:31:18.634Z  
 
 ```cpp
 public class Main {

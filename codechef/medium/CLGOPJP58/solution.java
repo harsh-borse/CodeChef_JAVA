@@ -1,9 +1,9 @@
-// Debug the code below 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int x = 5;
-        int y = 2;
-        float result = (float)x / y;
-        System.out.printf("Result: %.2f\n", result);
+        int f = 49;
+        float c = (float)((f - 32) * 5) / 9; // Ensure that the division is performed with float
+        System.out.println(c);
     }
 }

@@ -4,17 +4,16 @@
 
 ## Problem
 
-### MCQ - 10
+### MCQ - 11
 
 What will be the output of this code?
 
 ```
 class Codechef {
   public static void main(String[] args) {
-    int a = 10;
-    int b = 3;
-    int c = a / b;
-    System.out.println(c);
+    int a = -10 ;
+    int b = -3 ;
+    System.out.println(a / b);
   }
 }
 
@@ -25,7 +24,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:04:50.981Z  
+**Submitted:** 2026-08-21T13:05:19.401Z  
 
 ```cpp
 class Codechef

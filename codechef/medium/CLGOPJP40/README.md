@@ -6,14 +6,14 @@
 
 ### Multiple choice question
 
-What will be the value of x after the following statement?
+What would be the output of the code below?
 
 ```
 public class Main {
     public static void main(String[] args) {
-        int x = 7;
-        x *= 3;
-        System.out.println(x);
+        int a = 10, b = 2;
+        a /= b;
+        System.out.println(a);
     }
 }
 
@@ -24,7 +24,7 @@ public class Main {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:10:30.643Z  
+**Submitted:** 2026-08-21T13:10:38.738Z  
 
 ```cpp
 class Codechef

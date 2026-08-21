@@ -25,7 +25,7 @@ public class Main {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:59:39.223Z  
+**Submitted:** 2026-08-21T14:01:02.412Z  
 
 ```cpp
 public class Main {

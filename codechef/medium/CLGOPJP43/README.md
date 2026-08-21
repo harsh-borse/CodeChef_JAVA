@@ -18,7 +18,7 @@ Which of the following expressions is equivalent to the following code snippet?
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:15:43.501Z  
+**Submitted:** 2026-08-21T13:16:22.410Z  
 
 ```cpp
 import java.util.*;

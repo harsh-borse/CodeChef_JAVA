@@ -4,31 +4,18 @@
 
 ## Problem
 
-### Logical Operators
+### Multiple choice question
 
-Logical operators help you combine multiple conditions to check if they are true or false. They are often used to make decisions based on multiple criteria.
-
-#### Basic Logical Operations
-
-Here are the basic logical operators and their usage:
-
-- &&   (Logical AND: returns true only if both conditions are true) a > 5 && a < 10 // returns true only if a is greater than 5 but less than 10
-- ||  (Logical OR: returns true if at least one condition is true) a > 10 || a < 5 // returns true if a is greater than 10 or less than 5
-- !   (Logical NOT: reverses the result of the condition) !(a > 5 && a < 10) // returns true in the opposite cases of the first condition above
-### Task
-
-You are given a variable  **`height`**.
-You are allowed to enter the waterpark only if your height is between 5 and 10 (Inclusive).
-Apply the condition and output $1$ if condition is `true` or $0$ if condition is `false` as applicable.
+Which of the following expressions evaluates to `false`?
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:20:32.403Z  
+**Submitted:** 2026-08-21T13:22:03.939Z  
 
-```java
+```cpp
 public class Main {
     public static void main(String[] args) {
         int height = 15;

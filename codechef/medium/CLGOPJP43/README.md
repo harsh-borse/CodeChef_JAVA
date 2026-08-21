@@ -6,14 +6,10 @@
 
 ### Multiple choice question
 
-What will be the result of the following code:
+Which of the following expressions is equivalent to the following code snippet?
 
 ```
-public class Main {
-    public static void main(String[] args) {
-        System.out.println((5 + 3) < (2 * 5));
-    }
-}
+!(a < b)
 
 ```
 
@@ -22,7 +18,7 @@ public class Main {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:15:32.323Z  
+**Submitted:** 2026-08-21T13:15:43.501Z  
 
 ```cpp
 import java.util.*;

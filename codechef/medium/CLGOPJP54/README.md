@@ -41,7 +41,7 @@ In the IDE, create a variable `result` of type float which stores the result wit
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:56:36.960Z  
+**Submitted:** 2026-08-21T13:58:21.086Z  
 
 ```java
 public class Main {

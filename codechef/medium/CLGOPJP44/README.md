@@ -4,37 +4,42 @@
 
 ## Problem
 
-### Multiple choice question
+### Logical Operators
 
-Which of the following expressions is equivalent to the following code snippet?
+Logical operators help you combine multiple conditions to check if they are true or false. They are often used to make decisions based on multiple criteria.
 
-```
-!(a < b)
+#### Basic Logical Operations
 
-```
+Here are the basic logical operators and their usage:
+
+- &&   (Logical AND: returns true only if both conditions are true) a > 5 && a < 10 // returns true only if a is greater than 5 but less than 10
+- ||  (Logical OR: returns true if at least one condition is true) a > 10 || a < 5 // returns true if a is greater than 10 or less than 5
+- !   (Logical NOT: reverses the result of the condition) !(a > 5 && a < 10) // returns true in the opposite cases of the first condition above
+### Task
+
+You are given a variable  **`height`**.
+You are allowed to enter the waterpark only if your height is between 5 and 10 (Inclusive).
+Apply the condition and output $1$ if condition is `true` or $0$ if condition is `false` as applicable.
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:16:25.534Z  
+**Submitted:** 2026-08-21T13:18:44.787Z  
 
-```cpp
-import java.util.*;
-import java.lang.*;
-import java.io.*;
-
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	    int height1 = 15;
-	    int height2 = 13;
-	    // Update the blanks below this line
-	    System.out.println(height1 < height2);
-	    
-	}
+```java
+public class Main {
+    public static void main(String[] args) {
+        int height = 15;
+        // Update the blanks in the code below
+        if(height >=5 && height <=10){
+            System.out.println(1);
+        }
+        else{
+            System.out.println(0);
+        }
+    }
 }
 
 ```

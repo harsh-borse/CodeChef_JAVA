@@ -2,8 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int f = 49;
-        float c = (float)((f - 32) * 5) / 9; // Ensure that the division is performed with float
-        System.out.println(c);
+        int r = 3;
+        int rSquared = r * r; // Calculate the square of the radius
+        // Complete the code
+        double pi = 22.0/7;
+        float area =(float) pi * rSquared ; 
+        System.out.println(area); 
     }
 }

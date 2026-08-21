@@ -4,26 +4,25 @@
 
 ## Problem
 
-### Debugging Problem
+### Coding problem - 4
 
-In the IDE a program is given to convert a temperature from Fahrenheit to Celsius. It takes the temperature in Fahrenheit as input from the user and output the temperature in Celsius.
+Write a program to calculate the area of a circle using the formula:
+`Area` = `pi` x $r^{\text{2}}$
+`pi` = 22 / 7
+Output the area as a float.
 
-The formula for conversion is:
+ **Note**  - Please consider whole number radius.
 
-`C = ((F−32) × 5) / 9`​
-
-### Task
-- Review the code and debug it.
 ### Sample 1:
 Input
 Output
 
 ```
-49
+3
 ```
 
 ```
-9.444445
+28.285713
 ```
 
 ## Solution
@@ -31,16 +30,19 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T14:15:14.585Z  
+**Submitted:** 2026-08-21T14:25:22.342Z  
 
 ```java
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int f = 49;
-        float c = (float)((f - 32) * 5) / 9; // Ensure that the division is performed with float
-        System.out.println(c);
+        int r = 3;
+        int rSquared = r * r; // Calculate the square of the radius
+        // Complete the code
+        double pi = 22.0/7;
+        float area =(float) pi * rSquared ; 
+        System.out.println(area); 
     }
 }
 

@@ -17,7 +17,7 @@ Click on 'Run' to see the current output - Can you debug the code to get the des
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T14:12:13.374Z  
+**Submitted:** 2026-08-21T14:12:38.932Z  
 
 ```java
 // Debug the code below 

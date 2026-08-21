@@ -4,29 +4,43 @@
 
 ## Problem
 
-### Coding problem - 3
+### Debugging Problem
 
-Hrishi is still learning Java.
-However - it seems his knowledge of type casting, variables and output is still incomplete.
-The code given in the IDE is incorrect.
-Hrishi wanted to output `Result: 2.50`.
-Click on 'Run' to see the current output - Can you debug the code to get the desired output?
+In the IDE a program is given to convert a temperature from Fahrenheit to Celsius. It takes the temperature in Fahrenheit as input from the user and output the temperature in Celsius.
+
+The formula for conversion is:
+
+`C = ((F−32) × 5) / 9`​
+
+### Task
+- Review the code and debug it.
+### Sample 1:
+Input
+Output
+
+```
+49
+```
+
+```
+9.444445
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T14:12:42.904Z  
+**Submitted:** 2026-08-21T14:14:44.734Z  
 
 ```java
-// Debug the code below 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int x = 5;
-        int y = 2;
-        float result = (float)x / y;
-        System.out.printf("Result: %.2f\n", result);
+        int f = 49;
+        float c = (float)((f - 32) * 5) / 9; // Ensure that the division is performed with float
+        System.out.println(c);
     }
 }
 

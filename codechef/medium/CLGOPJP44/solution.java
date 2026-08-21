@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         int height = 15;
         // Update the blanks in the code below
-        if(height >=5 && height <=10){
+        if(height >=5 || height <=10){
             System.out.println(1);
         }
         else{

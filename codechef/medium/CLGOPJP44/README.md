@@ -26,7 +26,7 @@ Apply the condition and output $1$ if condition is `true` or $0$ if condition is
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:19:59.743Z  
+**Submitted:** 2026-08-21T13:20:31.280Z  
 
 ```java
 public class Main {

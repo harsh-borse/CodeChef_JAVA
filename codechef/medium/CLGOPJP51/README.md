@@ -4,25 +4,29 @@
 
 ## Problem
 
-### Solve this problem - 1
+### Solve this problem - 2
 
-You are given the age of a person as the variable  **`age`**.
-Will this person be able to vote?
-Output $1$ or $0$ assuming that the voting age is $18$ i.e., a person's age has to be greater than or equal to $18$ to vote.
+You are given the name of a teen as the variable $name$.
+There is a special rule in Chef town - You will get special treatment if your name is `C` or `A`.
+
+Output the following:
+
+- 1 if the name is A or C.
+- 0 otherwise.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:38:35.764Z  
+**Submitted:** 2026-08-21T13:45:49.681Z  
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        int age = 20;
+        char name = 'D';
         // Update the blank in code below
-        System.out.println((age >= 18) ? 1 : 0);
+        System.out.println(name == name ? 1 : 0); // Use single quotes for individual characters
     }
 }
 

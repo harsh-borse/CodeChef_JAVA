@@ -54,7 +54,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:29:23.678Z  
+**Submitted:** 2026-08-21T13:28:55.193Z  
 
 ```java
 public class Main {

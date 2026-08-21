@@ -6,21 +6,24 @@
 
 ### Multiple choice question
 
-Which of the following expressions is/are equivalent to `x > y ? x : y`
+What will the following code output?
 
-#### Note
+```
+public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        System.out.println(!(x > 5 && x < 10) ? 1 : 0);
+    }
+}
 
-`x > y ? x : y:`
-This expression checks if `x` is greater than `y`.
-If this condition is `true`, the expression evaluates to `x`, otherwise, it evaluates to `y`.
-Essentially, it returns the larger of the two values `x` and `y`.
+```
 
 ## Solution
 
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:32:05.958Z  
+**Submitted:** 2026-08-21T13:34:37.225Z  
 
 ```cpp
 public class Main {

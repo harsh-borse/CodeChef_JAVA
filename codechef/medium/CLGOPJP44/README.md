@@ -26,14 +26,14 @@ Apply the condition and output $1$ if condition is `true` or $0$ if condition is
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-21T13:18:44.787Z  
+**Submitted:** 2026-08-21T13:19:59.743Z  
 
 ```java
 public class Main {
     public static void main(String[] args) {
         int height = 15;
         // Update the blanks in the code below
-        if(height >=5 && height <=10){
+        if(height >=5 || height <=10){
             System.out.println(1);
         }
         else{

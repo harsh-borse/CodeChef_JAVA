@@ -4,19 +4,20 @@
 
 ## Problem
 
-### MCQ - 22
+### MCQ - 23
 
-What will be the output of this code, if the user enters a = 5 and b = 9?
+What will be the output of this code, if the  **user enters**  $5$ and $9$ when asked for input for a and b respectively?
 
 ```
-import java.util.*;
 class Codechef {
-    public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
-        int a = read.nextInt();
-        int b = read.nextInt();
-        System.out.println(a + "" + b + "" + (a + b)); // "" is empty string and not single space
-    }
+  public static void main(String[] args) {
+    Scanner read = new Scanner(System.in);
+    int a = read.nextInt();
+    int b = read.nextInt();
+    int c = a + 2;
+    int d = c + b;
+    System.out.println(d);
+  }
 }
 
 ```
@@ -26,7 +27,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:36:46.287Z  
+**Submitted:** 2026-08-22T12:37:19.915Z  
 
 ```cpp
 import java.util.Scanner;

@@ -4,72 +4,43 @@
 
 ## Problem
 
-### Incorrect Index
+### Debug the code - 7
 
-As our `string` uses zero-based indexing, many times we forget about it and write logic using one-based indexing, which gives us the wrong answer. This incorrect indexing gives you a `logical error`.
+You are given the name of a teen as the variable  **`name`**. There is a special rule in Chef town - You will get special treatment if your name is `C` or `A`.
 
- **Program to print the last character of the string** :
+Output should be the following:
 
-```
-import java.util.Scanner;
+- 1 if the name is A or C.
+- 0 otherwise.
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt(); // Input length of the string
-
-        String s = scanner.next(); // Input string
-        System.out.println(s.charAt(n-1)); // Correct way
-        System.out.println(s.charAt(n));  // Incorrect way
-        scanner.close();
-    }
-}
-
-```
-
-### Task
-- Given a program to print 1st, 4th and 6th character of a string.
-- Find out the logical error and fix it.
-### Sample 1:
-Input
-Output
-
-```
-hellohowudoing
-```
-
-```
-hlh
-```
+No need to take input in this problem.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:57:18.093Z  
+**Submitted:** 2026-08-22T13:58:48.711Z  
 
 ```java
+// Debug the code
 import java.util.*;
+import java.lang.*;
+import java.io.*;
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		char name = 'A';
+		if(name=='A' || name =='C'){
+		    System.out.println(1);
+		}
+		else{
+		    System.out.println(0);
+		}
+		
 
-class Codechef{
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String s = scanner.next(); // Input string
-        scanner.close();
-
-        if (s.length() >= 6) {
-            
-            char c1 = s.charAt(0); 
-            char c2 = s.charAt(3);
-            char c3 = s.charAt(5);
-
-            System.out.println("" + c1 + c2 + c3);
-        } else {
-            // Handle the case when indices are out of bounds
-            System.out.println("Invalid indices"); 
-        }
-    }
+	}
 }
 
 ```

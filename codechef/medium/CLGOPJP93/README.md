@@ -4,21 +4,37 @@
 
 ## Problem
 
-### Rearrange - 3
+### MCQ - 34
 
-Rearrange this code so that it is correct.
+What will be the output of this code when the input is 3?
 
-The code is trying to do the following:
+```
+class Codechef {
+  public static void main(String[] args) {
+    Scanner read = new Scanner(System.in);
+    int binary = read.nextInt();
 
-- Accept input and store it as 'binary'.
-- Output the value of the binary. In case the input is neither 0 or 1 - then the output will be 'Not Valid'.
+    switch (binary) {
+        case 0:
+            System.out.println("Zero");
+            break;
+        case 1:
+            System.out.println("One");
+            break;
+        default:
+            System.out.println("Not valid");
+    }
+  }
+}
+
+```
 
 ## Solution
 
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:38:01.658Z  
+**Submitted:** 2026-08-22T13:38:26.759Z  
 
 ```cpp
 // Update the blank in the code given below

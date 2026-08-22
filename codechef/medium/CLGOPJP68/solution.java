@@ -4,10 +4,13 @@ class Codechef
 {
 	public static void main (String[] args)
 	{
-		// Update the blank in the code given below
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		System.out.println("Square is: " + (num * num));
-		System.out.println("Cube is: " + (num * num * num));
+	   // Update the blank in code below
+		Scanner read = new Scanner(System.in);
+        int length = read.nextInt();
+        int width = read.nextInt();
+
+        int area = length * width;
+
+        System.out.println("Area of the rectangle is: " + area);
 	}
 }

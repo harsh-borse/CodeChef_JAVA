@@ -4,16 +4,18 @@
 
 ## Problem
 
-### MCQ - 21
+### MCQ - 22
 
-What will be the output of this code, if the user enters `Chef`?
+What will be the output of this code, if the user enters a = 5 and b = 9?
 
 ```
+import java.util.*;
 class Codechef {
     public static void main(String[] args) {
         Scanner read = new Scanner(System.in);
-        String s = read.nextLine();
-        System.out.println("Your name is: " + s);
+        int a = read.nextInt();
+        int b = read.nextInt();
+        System.out.println(a + "" + b + "" + (a + b)); // "" is empty string and not single space
     }
 }
 
@@ -24,7 +26,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:35:39.254Z  
+**Submitted:** 2026-08-22T12:36:45.328Z  
 
 ```cpp
 import java.util.Scanner;

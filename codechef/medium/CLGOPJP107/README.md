@@ -4,25 +4,26 @@
 
 ## Problem
 
-### Debug the code - 10
+### Debug the code - 11
 
 Write a program which does the following:
 
-- Declare two integer variables length and width.
-- Accept two user inputs from the console and store these values in length and width respectively.
-- Create another integer variable area - compute the area of the rectangle and store it in area.
-- Output area to the console.
+- Find the area of a square of side 14cm.
+- Also, find the cost of painting the square if the paint costs is $7/cm2.
+- Initialize the following variables in your program and use them in the computation: s to store the length of side the square. area to store the area of the square. cost to store the cost of painting.
+- Output area and cost to the console on separate lines.
+- Note: Include the character "$" with the cost without any space.
 ### Sample 1:
 Input
 Output
 
 ```
-10
-23
+
 ```
 
 ```
-Area of the rectangle is: 230
+196
+1372$
 ```
 
 ## Solution
@@ -30,7 +31,7 @@ Area of the rectangle is: 230
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T14:03:06.144Z  
+**Submitted:** 2026-08-22T14:06:42.467Z  
 
 ```java
 // Debug the given code
@@ -42,14 +43,11 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int length, width;
-        int area;
-        Scanner scanner = new Scanner(System.in);
-        length = scanner.nextInt();
-        width = scanner.nextInt();
-        
-        area = length * width;
-        System.out.println("Area of the rectangle is: " + area); 
+        int s = 14;
+        int area = s * s;
+        int cost = area * 7;
+        System.out.println(area);
+        System.out.println(cost + "$");
 	}
 }
 

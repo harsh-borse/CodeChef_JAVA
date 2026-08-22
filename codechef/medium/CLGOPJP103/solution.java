@@ -6,7 +6,7 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		char name = 'A';
+		char name = 'C';
 		if(name=='A' || name =='C'){
 		    System.out.println(1);
 		}

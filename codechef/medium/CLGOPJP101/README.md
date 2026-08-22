@@ -73,7 +73,7 @@ the number is greater than 5
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:52:19.046Z  
+**Submitted:** 2026-08-22T13:52:49.152Z  
 
 ```java
 import java.util.*;
@@ -84,7 +84,7 @@ class Codechef {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         
-        if (n < 5) {             // correct the incorrect if codition 
+        if (n > 5) {             // correct the incorrect if codition 
             System.out.println("the number is greater than 5");
         } else {
             System.out.println("the number is smaller than or equal to 5");

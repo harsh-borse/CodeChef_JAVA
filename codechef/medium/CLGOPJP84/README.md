@@ -4,28 +4,27 @@
 
 ## Problem
 
-### MCQ - 30
+### MCQ - 29
 
 What will be the output of this code?
 
 ```
 class Codechef {
-  public static void main(String[] args) {
-    int a = 0;
-    int b = -10;
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
 
-    if (a >= b) {
-        System.out.print("a is greater or equal to b. ");
+        if (a >= b) {
+            System.out.println("a is greater or equal to b.");
+        }
+        if (a == 0) {
+            System.out.println("a is 0.");
+        }
+        if (a <= 5) {
+            System.out.print("a is not more than 5.");
+        }
+        System.out.println(" Program ends.");
     }
-    if (a == 0) {
-        System.out.print("a is 0. ");
-    }
-    if (a <= 5) {
-        System.out.print("a is not more than 5. ");
-    }
-
-    System.out.print("Program ends ");
-  }
 }
 
 ```
@@ -35,7 +34,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:11:04.355Z  
+**Submitted:** 2026-08-22T13:10:10.166Z  
 
 ```cpp
 import java.util.*;

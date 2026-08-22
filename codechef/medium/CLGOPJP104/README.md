@@ -4,14 +4,11 @@
 
 ## Problem
 
-### Debug the code - 7
+### Debug the code - 8
 
-You are given the name of a teen as the variable  **`name`**. There is a special rule in Chef town - You will get special treatment if your name is `C` or `A`.
+You are given the age of a person as the variable age. Will this person be able to vote?
 
-Output should be the following:
-
-- 1 if the name is A or C.
-- 0 otherwise.
+Output 1 or 0 assuming that the voting age is 18 i.e., a person's age has to be greater than or equal to 18 to vote.
 
 No need to take input in this problem.
 
@@ -20,26 +17,25 @@ No need to take input in this problem.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:59:23.599Z  
+**Submitted:** 2026-08-22T14:01:03.977Z  
 
 ```java
-// Debug the code
+// Debug the given code
 import java.util.*;
 import java.lang.*;
 import java.io.*;
+
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		char name = 'C';
-		if(name=='A' || name =='C'){
-		    System.out.println(1);
-		}
-		else{
-		    System.out.println(0);
-		}
-		
-
+	    int age = 18;
+	    if(age >= 18){
+	        System.out.println(1);
+	    }
+	    else{
+	        System.out.println(0);
+	    }
 	}
 }
 

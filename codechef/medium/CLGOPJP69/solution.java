@@ -2,12 +2,12 @@ import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args)
-	{
-		// Update the blank in the code given below
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		System.out.println("Square is: " + (num * num));
-		System.out.println("Cube is: " + (num * num * num));
-	}
+    public static void main(String[] args)
+    {
+        // Update the blank in the code given below
+        Scanner read = new Scanner(System.in);
+        int mile = read.nextInt();
+        double km = 1.60 * mile;
+        System.out.println(km);
+    }
 }

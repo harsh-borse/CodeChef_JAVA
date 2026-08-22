@@ -20,7 +20,7 @@ No need to take input in this problem.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:58:48.711Z  
+**Submitted:** 2026-08-22T13:59:22.803Z  
 
 ```java
 // Debug the code
@@ -31,7 +31,7 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		char name = 'A';
+		char name = 'C';
 		if(name=='A' || name =='C'){
 		    System.out.println(1);
 		}

@@ -4,85 +4,71 @@
 
 ## Problem
 
-### If Statement
+### Else If Statement
 
-The  **else**  statement is optional.
+In cases where you have to check for multiple conditions and run some code based on each, you have to use  **else if**.
 
-Here is an example
+The  **else if**  keyword means "if the previous conditions were not true, then try this condition"
+
+The following example illustrates usage of  **else if**.
 
 ```
-grade = 95;
+grade = 85;
 if (grade >= 90) {
     System.out.println("You got an A");
+} else if (grade >= 80) {
+    System.out.println("You got a B");
 }
 
 // Output
-// You got an A
+// You got a B
 
 ```
 
-In the above program, if the condition is True, then the  **`System.out.println()`**  statement is executed.
+The code above works as follows
 
+- If grade >= 90, then it will output: You got an A
+- If grade is between 80 and 90 - it will output: You got a B
+- If grade is less than 80 - there will be no output
 ### Task
 
-Write a program which does the following:
+Write a program which does the following
 
-- Take input for two integer variables a and b.
-- Output Coding is Fun! to the console if a is greater than b.
-### Sample 1:
-Input
-Output
-
-```
-25
-20
-```
-
-```
-Coding is Fun!
-```
-
-### Sample 2:
-Input
-Output
-
-```
-20
-20
-```
-
-```
- 
-```
+- Declare two integers variables b and r and initialize them with some values.
+- Print "Rob scored higher marks than Bob", if r is greater than b
+- Print "Bob & Rob both scored the same", if both b and r are equal
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:56:40.276Z  
+**Submitted:** 2026-08-22T12:59:15.133Z  
 
 ```java
-import java.util.Scanner;
-
 class Codechef
 {
-    public static void main(String[] args)
+    public static void main (String[] args)
     {
-        // 	Your code goes here
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        if (a > b) {
-            System.out.println("Coding is Fun!");
+        // Update the blank in the code given below
+        int b = 23;
+        int r = 45;
+        if(r > b){
+            System.out.println("Rob scored higher marks than Bob.");
         }
-        else {
-            System.out.println("");
+        else if(r == b){
+            System.out.println("Bob & Rob both scored the same");
         }
-
-
-
+        
+         r= 15;
+         b= 15;
+        if(r > b){
+            System.out.println("Rob scored higher marks than Bob.");
+        }
+        else if(r == b){
+            System.out.println("Bob & Rob both scored the same");
+        }
+        
     }
 }
 ```

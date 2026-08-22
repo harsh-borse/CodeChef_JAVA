@@ -1,24 +1,33 @@
+import java.util.*;
+
 class Codechef
 {
 	public static void main (String[] args)
 	{
-	   // Update the blank in the code given below
-		int a = 15;
-        
-        if (a % 7 == 0 && a % 5 == 0) {
-            System.out.println("The number is divisible by both 5 & 7");
-        }
-            else {
-            System.out.println("The number is not divisible by both 5 & 7");
-        }
-        
-        a = 35;
-        
-        if (a % 7 == 0 && a % 5 == 0) {
-            System.out.println("The number is divisible by both 5 & 7");
+	   // Update the blanks in the code given below
+		Scanner read = new Scanner(System.in);
+
+        int z;
+        int x;
+        int c;
+        z = read.nextInt();
+        x = read.nextInt();
+        c = read.nextInt();
+        if (c > x || c > z) {
+            System.out.println("PASS");
         }
         else {
-            System.out.println("The number is not divisible by both 5 & 7");
+            System.out.println("FAIL");
+        }
+
+        z = read.nextInt();
+        x = read.nextInt();
+        c = read.nextInt();
+        if (c > x || c > z) {
+            System.out.println("PASS");
+        }
+        else {
+            System.out.println("FAIL");
         }
 	}
 }

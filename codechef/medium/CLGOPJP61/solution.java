@@ -4,9 +4,11 @@ class Codechef
 {
 	public static void main (String[] args)
 	{
-		// your code goes here
-		Scanner sc = new Scanner(System.in);
-		String name = sc.nextLine();
-		System.out.println(name);
+	    
+	   Scanner sc = new Scanner(System.in);
+	   int num = sc.nextInt();
+	   System.out.println(num*num);
+		// update your code below this line
+		
 	}
 }

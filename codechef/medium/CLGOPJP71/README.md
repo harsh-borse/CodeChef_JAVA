@@ -13,7 +13,7 @@ Rearrange this code so that it is correct.
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:46:48.046Z  
+**Submitted:** 2026-08-22T12:46:51.708Z  
 
 ```cpp
 import java.util.*;

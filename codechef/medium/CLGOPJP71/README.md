@@ -4,18 +4,39 @@
 
 ## Problem
 
-### Rearrange Code
+### Table of Any Number
 
-Rearrange this code so that it is correct.
+Write a program to print the multiplication table of any number given by a user upto 10.
+
+### Sample 1:
+Input
+Output
+
+```
+4
+```
+
+```
+4 x 1 = 4
+4 x 2 = 8
+4 x 3 = 12
+4 x 4 = 16
+4 x 5 = 20
+4 x 6 = 24
+4 x 7 = 28
+4 x 8 = 32
+4 x 9 = 36
+4 x 10 = 40
+```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:46:51.708Z  
+**Submitted:** 2026-08-22T12:45:11.488Z  
 
-```cpp
+```java
 import java.util.*;
 
 class Codechef

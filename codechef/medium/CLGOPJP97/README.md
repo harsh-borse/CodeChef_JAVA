@@ -4,47 +4,42 @@
 
 ## Problem
 
-### Compilation error continued
+### Mismatched Parenthesis
 
-How do you identify the `'Compilation error'`?
+There should be one closing bracket for each opening bracket and the closing bracket should also be of the same type, like (),{},[]
 
-When you click on `Run` or `Submit` - you will get the error description below it.
-For example - in the example below - we are being told by the system that there is an error on `Line 4`.
-The nature of the error is that a `;` was expected.
+If we try to use different opening and closing brackets, it can give you a `syntax error`.
 
 ```
-Status :Compilation error
-
-Main.java:4: error: ';' expected
-        System.out.println(Number)
-                                  ^
-1 error    
+int a  = (5+7 } ;     // incorrect due to the usage of mismatched parenthesis
 
 ```
 
 ### Task
 
-We have populated a code in the `IDE` which should output `15`.
-Click on `Submit` to run the code and view the error message.
-Can you debug the code to get the output 15.
+We have given a program to check whether a given number is odd or even.
+Debug the code the solve the problem.
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:46:00.110Z  
+**Submitted:** 2026-08-22T13:47:07.613Z  
 
 ```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
-class Codechef{
+class Codechef {
     public static void main(String[] args) {
-        int a = 3; // change capital I to small i
-        int b = 5;
-        System.out.println(a * b) ;  // add semicolon
+        int n;
+        n = 5;
+        if (n % 2 == 1) {
+            System.out.println("Odd");
+        } else {
+            System.out.println("Even");
+        }     // correct the closing bracket
     }
 }
 

@@ -4,39 +4,39 @@
 
 ## Problem
 
-### Or Statement
+### MCQ - 31
 
-'||' can be used to insert the 'or' condition in a `java` code.
-
-### Task
-
-Write a program which does the following:
-
-- Take input from the console for integer variables z, x and c.
-- Do the above for 2 separate input tuples: z = 5, x = 3, c = 2. z = 3, x = 5, c = 8.
-- Compute and output the following for each tuple z, x and c: "PASS" if c is greater than either x or z. Otherwise print "FAIL" in every other case.
-### Sample 1:
-Input
-Output
+What will be the output of this code?
 
 ```
-5 3 2
-3 5 8
-```
+class Codechef {
+  public static void main(String[] args) {
+    int a = 10;
+    int b = -10;
 
-```
-FAIL
-PASS
+    if (a >= b) {
+       System.out.print("a is greater or equal to b. ");
+    }
+    if (a == 0 || b == 0) {
+       System.out.print("At least one is 0. ");
+    }
+    if (a == 0 && b == 0) {
+       System.out.print("Both are 0. ");
+    }
+    System.out.println("Program ends");
+  }
+}
+
 ```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:16:32.927Z  
+**Submitted:** 2026-08-22T13:17:18.640Z  
 
-```java
+```cpp
 import java.util.*;
 
 class Codechef

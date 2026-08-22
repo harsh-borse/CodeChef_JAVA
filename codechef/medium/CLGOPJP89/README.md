@@ -4,7 +4,7 @@
 
 ## Problem
 
-### MCQ - 33
+### MCQ - 32
 
 What will be the output of this code?
 
@@ -12,17 +12,20 @@ What will be the output of this code?
 class Codechef {
   public static void main(String[] args) {
     int a = 0;
-    int b = 0;
+    int b = -10;
 
     if (a >= b) {
-        System.out.print("a is greater or equal to b. ");
+       System.out.print("a is greater or equal to b. ");
     }
+
     if (a == 0 || b == 0) {
-        System.out.print("At least one is 0. ");
+       System.out.print("At least one is 0. ");
     }
+
     if (a == 0 && b == 0) {
-        System.out.print("Both are 0. ");
+       System.out.print("Both are 0. ");
     }
+
     System.out.print("Program ends");
   }
 }
@@ -34,7 +37,7 @@ class Codechef {
 **Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:18:09.111Z  
+**Submitted:** 2026-08-22T13:17:52.285Z  
 
 ```cpp
 import java.util.*;

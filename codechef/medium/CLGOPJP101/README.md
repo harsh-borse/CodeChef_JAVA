@@ -73,7 +73,7 @@ the number is greater than 5
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:52:07.314Z  
+**Submitted:** 2026-08-22T13:52:19.046Z  
 
 ```java
 import java.util.*;

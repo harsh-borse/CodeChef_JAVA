@@ -4,40 +4,53 @@
 
 ## Problem
 
-### Debug the code - 12
+### Debug the code - 11
 
 Write a program which does the following:
 
-- Initialize a string variable word and assign the value "Ocygen" to it.
-- You now want to fix the typo in the given string.
-- Replace 'c' with 'x' in the variable word. Output the updated word to console.
+- Find the area of a square of side 14cm.
+- Also, find the cost of painting the square if the paint costs is $7/cm2.
+- Initialize the following variables in your program and use them in the computation: s to store the length of side the square. area to store the area of the square. cost to store the cost of painting.
+- Output area and cost to the console on separate lines.
+- Note: Include the character "$" with the cost without any space.
+### Sample 1:
+Input
+Output
+
+```
+
+```
+
+```
+196
+1372$
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T14:08:40.418Z  
+**Submitted:** 2026-08-22T14:06:43.654Z  
 
 ```java
 // Debug the given code
-import java.util.Scanner;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args) throws java.lang.Exception
 	{
-		char[] word = "Ocygen".toCharArray();
-        word[1] = 'x';
-        System.out.println(word);
+        int s = 14;
+        int area = s * s;
+        int cost = area * 7;
+        System.out.println(area);
+        System.out.println(cost + "$");
 	}
 }
 
-/*Note:
-
-The java string toCharArray() method converts this string into character array. It returns a newly created character array, its length is similar to this string and its contents are initialized with the characters of this string.
-
-*/
 ```
 
 ---

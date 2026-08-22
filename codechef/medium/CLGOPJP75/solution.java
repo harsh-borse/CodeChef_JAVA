@@ -1,22 +1,25 @@
-import java.util.Scanner;
-
 class Codechef
 {
-    public static void main(String[] args)
+    public static void main (String[] args)
     {
-        // 	Your code goes here
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-
-        if (a > b) {
-            System.out.println("Coding is Fun!");
+        // Update the blank in the code given below
+        int b = 23;
+        int r = 45;
+        if(r > b){
+            System.out.println("Rob scored higher marks than Bob.");
         }
-        else {
-            System.out.println("");
+        else if(r == b){
+            System.out.println("Bob & Rob both scored the same");
         }
-
-
-
+        
+         r= 15;
+         b= 15;
+        if(r > b){
+            System.out.println("Rob scored higher marks than Bob.");
+        }
+        else if(r == b){
+            System.out.println("Bob & Rob both scored the same");
+        }
+        
     }
 }

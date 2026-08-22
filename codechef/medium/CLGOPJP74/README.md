@@ -4,60 +4,86 @@
 
 ## Problem
 
-### Curly braces
+### If Statement
 
-Let's take a look at the code from last problem:
+The  **else**  statement is optional.
+
+Here is an example
 
 ```
-int age = 25;
-int voting_age = 18;
-
-if (age >= voting_age) {
-    System.out.println("Old enough to vote!");
-} else {
-    System.out.println("Not old enough to vote.");
+grade = 95;
+if (grade >= 90) {
+    System.out.println("You got an A");
 }
 
+// Output
+// You got an A
+
 ```
 
-To things to note here:
-
-- The condition age >= voting_age is inside parentheses ().
-- The System.out.println() statements are inside curly brackets { }.
-
-The parentheses are mandatory after  **if**  statement, and the condition comes inside them. We use curly brackets in Java to define scope. Because of the curly braces, Java knows that it has to execute the print statement if the condition becomes true.
+In the above program, if the condition is True, then the  **`System.out.println()`**  statement is executed.
 
 ### Task
 
-You need to do the following:
+Write a program which does the following:
 
-- Run the code as it is and read the error that you get.
-- Add curly braces around the condition and then re-run the code.
+- Take input for two integer variables a and b.
+- Output Coding is Fun! to the console if a is greater than b.
+### Sample 1:
+Input
+Output
+
+```
+25
+20
+```
+
+```
+Coding is Fun!
+```
+
+### Sample 2:
+Input
+Output
+
+```
+20
+20
+```
+
+```
+ 
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:52:13.867Z  
+**Submitted:** 2026-08-22T12:56:22.480Z  
 
 ```java
+import java.util.Scanner;
+
 class Codechef
 {
-	public static void main (String[] args)
-	{
-	   // Debug the code given below
-	    int age = 25;
-        int voting_age = 18;
+    public static void main(String[] args)
+    {
+        // 	Your code goes here
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        if (age < voting_age){
-            System.out.println("Not old enough to vote.");
-            System.out.println("Wait for " + (voting_age - age) + " years");
-
-        }else {
-            System.out.println("Old enough to vote!");
+        if (a > b) {
+            System.out.println("Coding is Fun!");
         }
-	}
+        else {
+            System.out.println("");
+        }
+
+
+
+    }
 }
 ```
 

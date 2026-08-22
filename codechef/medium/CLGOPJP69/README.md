@@ -4,26 +4,25 @@
 
 ## Problem
 
-### Cubes and Squares
+### Mile to Kilometer Convertor
 
 Write a program which does the following:
 
-- Declare an integer variable a.
-- Accept a user input and store it in the variable a.
-- Declare 2 variables square and cube - compute and store the square and cube of a in them.
-- Output square and cube to the console on separate lines.
-- Note: Square of an integer N = N  *N. Cube of an integer N = N*  N * N.
+- Create a Convertor that converts miles into kilometers.(1 Mile = 1.60 KM).
+- Declare an integer variable mile.
+- Accept user input and store it in mile.
+- Declare a double variable km.
+- Compute and output distance in kilometers console.
 ### Sample 1:
 Input
 Output
 
 ```
-3
+2
 ```
 
 ```
-Square is: 9
-Cube is: 27
+3.2
 ```
 
 ## Solution
@@ -31,21 +30,21 @@ Cube is: 27
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T12:40:39.615Z  
+**Submitted:** 2026-08-22T12:44:06.851Z  
 
 ```java
 import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args)
-	{
-		// Update the blank in the code given below
-		Scanner sc = new Scanner(System.in);
-		int num = sc.nextInt();
-		System.out.println("Square is: " + (num * num));
-		System.out.println("Cube is: " + (num * num * num));
-	}
+    public static void main(String[] args)
+    {
+        // Update the blank in the code given below
+        Scanner read = new Scanner(System.in);
+        int mile = read.nextInt();
+        double km = 1.60 * mile;
+        System.out.println(km);
+    }
 }
 ```
 

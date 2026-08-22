@@ -1,10 +1,19 @@
 // Debug the given code
-public class Main {
-    public static void main(String[] args) {
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int length, width;
+        int area;
+        Scanner scanner = new Scanner(System.in);
+        length = scanner.nextInt();
+        width = scanner.nextInt();
         
-        char[] var = "CodeChef".toCharArray();
-        System.out.print(var[0]);
-        System.out.print(var[1]);
-        System.out.print(var[2]);
-    }
+        area = length * width;
+        System.out.println("Area of the rectangle is: " + area); 
+	}
 }

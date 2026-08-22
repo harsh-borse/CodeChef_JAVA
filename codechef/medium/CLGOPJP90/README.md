@@ -43,7 +43,7 @@ Thank YOU!
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:30:48.307Z  
+**Submitted:** 2026-08-22T13:31:06.659Z  
 
 ```java
 import java.util.*;

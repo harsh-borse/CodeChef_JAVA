@@ -1,11 +1,14 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
-class Codechef{
+class Codechef {
     public static void main(String[] args) {
-        int a = 3; // change capital I to small i
-        int b = 5;
-        System.out.println(a * b) ;  // add semicolon
+        int n;
+        n = 5;
+        if (n % 2 == 1) {
+            System.out.println("Odd");
+        } else {
+            System.out.println("Even");
+        }     // correct the closing bracket
     }
 }

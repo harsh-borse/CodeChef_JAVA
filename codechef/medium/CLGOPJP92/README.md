@@ -4,56 +4,23 @@
 
 ## Problem
 
-### Switch, Break and Default statement
+### Rearrange - 3
 
-We can use the  **`switch`**  statement to select one of many code blocks to be executed.
-We can use the  **`break`**  statement to end the execution of code at a specific point.
+Rearrange this code so that it is correct.
 
-The Syntax is as follows:
+The code is trying to do the following:
 
-```
-switch(expression) {
-  case x:
-    // code 
-    break;
-  case y:
-    // code 
-    break;
-  default:
-    // code 
-}
-
-```
-
-- The switch expression is evaluated once and the value of the expression is compared with the values of each case. If there is a match, the associated block of code is executed.
-- When Java reaches a break keyword, it breaks out of the switch block. This will stop the execution of more code and case testing inside the block.
-- The default keyword specifies some code to run if there is no case match.
-### Task
-
-Write a program which does the following:
-
-- Take input from the user with value between 1 and 7.
-- Compute and output to the console the day associated with that number.
-### Sample 1:
-Input
-Output
-
-```
-4
-```
-
-```
-Thursday
-```
+- Accept input and store it as 'binary'.
+- Output the value of the binary. In case the input is neither 0 or 1 - then the output will be 'Not Valid'.
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-22T13:36:19.730Z  
+**Submitted:** 2026-08-22T13:37:59.242Z  
 
-```java
+```cpp
 // Update the blank in the code given below
 import java.util.Scanner;
 

@@ -4,36 +4,26 @@
 
 ## Problem
 
-### User input Loop
-
-Let us change the problem a bit.
-
+### Print powers of 2
 ### Task
 
-Write a program which does the following:
+You have to print powers of $2$ from $2$ to $128$ in separate lines using a while loop:
 
-- Declare a variable num and store a user defined input from the console in it.
-- Declare a variable a and initialize it to $0$.
-- Use the syntax above to create a loop, output the following to the console: Print a in separate lines as long as it is less than num. Increment a by $1$ in each iteration.
-### Sample 1:
-Input
-Output
-
-```
-10
-```
+- When using a loop you have to think about three things initialization, condition and update statement.
+- So think about what we initialize the variable with? i.e., Where does the sequence start form?
+- Think about what the condition will be? i.e., Till where is the sequence going?
+- Also think about how the variable will be updating after every iteration. How the terms in the sequence are changing?
+### Expected Output
 
 ```
-0
-1
 2
-3
 4
-5
-6
-7
 8
-9
+16
+32
+64
+128
+
 ```
 
 ## Solution
@@ -41,29 +31,27 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:22:45.709Z  
+**Submitted:** 2026-08-24T13:39:27.743Z  
 
 ```java
-import java.util.*;
+import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args)
+	public static void main (String[] args) 
 	{
-		Scanner read = new Scanner(System.in);
-		int num = read.nextInt();
-		int a = 0;
-		
-		while( a < num){
-		    System.out.println(a);
-		    a++;
-		    
-		}
-		// Update your code below this line
-
-
+		// your code goes here
+        int i = 2;
+        while( i <= 128){
+            
+            System.out.println(i);
+            i = i*2;
+        
+        }
+        
 	}
 }
+
 ```
 
 ---

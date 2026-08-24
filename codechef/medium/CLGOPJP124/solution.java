@@ -8,7 +8,7 @@ class Codechef
 		Scanner scanner = new Scanner(System.in);
 
         int N, sum = 0;
-        int i =0 ;
+        int i = 1 ;
     
         N = scanner.nextInt();
 

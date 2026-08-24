@@ -40,7 +40,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:58:56.420Z  
+**Submitted:** 2026-08-24T14:27:29.643Z  
 
 ```java
 // Debug the code below to solve the problem.
@@ -53,7 +53,7 @@ class Codechef
 		Scanner scanner = new Scanner(System.in);
 
         int N, sum = 0;
-        int i =0 ;
+        int i = 1 ;
     
         N = scanner.nextInt();
 

@@ -1,15 +1,16 @@
 // Debug the code
-import java.util.*;
-class Codechef {
+import java.util.Scanner;
+
+public class Main {
     public static void main(String[] args) {
+       
         Scanner scanner = new Scanner(System.in);
+        int N, M;
 
-        int c, x, y;
-        c = scanner.nextInt();
-        x = scanner.nextInt();
-        y = scanner.nextInt();
+        N = scanner.nextInt();
+        M = scanner.nextInt();
 
-        int result = (c - x) * y;
+        int result = (N*2) + (M*4);
         System.out.println(result);
 
         scanner.close();

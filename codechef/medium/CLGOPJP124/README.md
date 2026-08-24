@@ -4,46 +4,67 @@
 
 ## Problem
 
-### MCQ
+### Sum of N Integers
 
-What is the output of this code?
+Chef was given an integer input N.
+
+He wants to write a code using `while` loops to output the sum of all integers from 1 to $N$.
+Help him complete the code by filling in the blanks.
+
+### Sample 1:
+Input
+Output
 
 ```
-class Codechef {
-  public static void main(String[] args) {
-    int a = 1;
-    int b = 4;
-    while (a != b) {
-      System.out.println(b);
-      b = b + 1;
-    }
-  }
-}
+5
+```
 
+```
+15
+```
+
+### Sample 2:
+Input
+Output
+
+```
+10
+```
+
+```
+55
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:54:19.819Z  
+**Submitted:** 2026-08-24T13:58:56.420Z  
 
-```cpp
+```java
+// Debug the code below to solve the problem.
+import java.util.Scanner;
+
 class Codechef
 {
-	public static void main (String[] args)
+	public static void main (String[] args) 
 	{
-	   // Update the blank in the code given below.
-		int i = 0;
-		do{
-		    System.out.println(i);
-		    i++;
-		}
-	    while(i < 6);
-		
+		Scanner scanner = new Scanner(System.in);
+
+        int N, sum = 0;
+        int i =0 ;
+    
+        N = scanner.nextInt();
+
+        while ( i <= N) {
+            sum = sum + i;
+            i++;
+        }
+        System.out.println(sum);
 	}
 }
+
 ```
 
 ---

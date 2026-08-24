@@ -4,22 +4,36 @@
 
 ## Problem
 
-### Odd numbers
+### User input Loop
+
+Let us change the problem a bit.
+
 ### Task
 
-Write a program to print odd numbers between $10$ to $20$ on separate lines:
+Write a program which does the following:
 
-- Think of where the loop should start from, declare a variable a and initialise it to that value.
-- Use the while syntax to create a loop, Think of what condition would stop the loop when the iterator reaches its end. Think of how to adjust the value of the iterator within each iteration. Would it be incremented or decremented? By what value should it be incremented or decremented?
-#### Expected output:
+- Declare a variable num and store a user defined input from the console in it.
+- Declare a variable a and initialize it to $0$.
+- Use the syntax above to create a loop, output the following to the console: Print a in separate lines as long as it is less than num. Increment a by $1$ in each iteration.
+### Sample 1:
+Input
+Output
 
 ```
-11
-13
-15
-17
-19
+10
+```
 
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
 ```
 
 ## Solution
@@ -27,28 +41,29 @@ Write a program to print odd numbers between $10$ to $20$ on separate lines:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:19:20.736Z  
+**Submitted:** 2026-08-24T13:22:39.803Z  
 
 ```java
-import java.util.Scanner;
+import java.util.*;
 
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args)
 	{
-	   // Update the code below this line.
-	    int i = 11;
-	    while(i < 20){
-	        System.out.println(i);
-	        i = i + 2;
-	    
-	        
-	        
-	        
-	    }
+		Scanner read = new Scanner(System.in);
+		int num = read.nextInt();
+		int a = 0;
+		
+		while( a < num){
+		    System.out.println(a);
+		    a++;
+		    
+		}
+		// Update your code below this line
+
+
 	}
 }
-
 ```
 
 ---

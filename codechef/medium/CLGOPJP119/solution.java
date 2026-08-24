@@ -1,18 +1,20 @@
-import java.util.Scanner;
+import java.util.*;
 
 class Codechef
 {
-	public static void main (String[] args) 
+	public static void main (String[] args)
 	{
-	   // Update the code below this line.
-	    int i = 11;
-	    while(i < 20){
-	        System.out.println(i);
-	        i = i + 2;
-	    
-	        
-	        
-	        
-	    }
+		Scanner read = new Scanner(System.in);
+		int num = read.nextInt();
+		int a = 0;
+		
+		while( a < num){
+		    System.out.println(a);
+		    a++;
+		    
+		}
+		// Update your code below this line
+
+
 	}
 }

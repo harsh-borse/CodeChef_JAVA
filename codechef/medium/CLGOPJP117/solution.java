@@ -4,11 +4,11 @@ class Codechef
 {
 	public static void main (String[] args) 
 	{
-	    int i = 5; // Initialization
-		while (i <= 20) { // Condition
+	   // Update the blank given below
+		int i = 10;
+        while(i>=0){
             System.out.println(i);
-            i++; // Update statement
+            i--;
         }
-
-	}
+    }
 }

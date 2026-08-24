@@ -4,34 +4,30 @@
 
 ## Problem
 
-### Print Numbers 5 - 20
+### Printing numbers 10 - 0
+
+Let us change the problem a bit.
+
 ### Task
 
-You have to print numbers from 5 to 20 in separate lines using a while loop.
+Write a program to print numbers from $10$ to $0$ on separate lines:
 
-- When using a loop you have to think about three things - initialisation, condition and update statement.
-- So think about what we initialise the variable with? i.e., Where does the sequence start form?
-- Think about what the condition will be? i.e., Till where is the sequence going?
-- Also think about how the variable will be updating after every iteration. How the terms in the sequence are changing?
-### Expected Output
+- Think of where the loop should start from, declare a variable a and initialise it to that value.
+- Use the while syntax to create a loop, Think of what condition would stop the loop when the iterator reaches its end. Think of how to adjust the value of the iterator within each iteration. Would it be incremented or decremented?
+### Expected Output:
 
 ```
-5
-6
-7
-8
-9
 10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
 
 ```
 
@@ -40,7 +36,7 @@ You have to print numbers from 5 to 20 in separate lines using a while loop.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:10:43.601Z  
+**Submitted:** 2026-08-24T13:13:08.502Z  
 
 ```java
 import java.util.Scanner;
@@ -49,13 +45,13 @@ class Codechef
 {
 	public static void main (String[] args) 
 	{
-	    int i = 5; // Initialization
-		while (i <= 20) { // Condition
+	   // Update the blank given below
+		int i = 10;
+        while(i>=0){
             System.out.println(i);
-            i++; // Update statement
+            i--;
         }
-
-	}
+    }
 }
 
 ```

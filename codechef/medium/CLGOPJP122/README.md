@@ -4,32 +4,16 @@
 
 ## Problem
 
-### MCQ
-
-What is the output of this code?
-
-```
-class Codechef {
-  public static void main(String[] args) {
-    int a = 4;
-    int b = 1;
-    while (a != b) {
-      System.out.println(b);
-      b = b + 1;
-    }
-  }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T13:53:29.911Z  
+**Submitted:** 2026-08-24T13:52:09.947Z  
 
-```cpp
+```java
 class Codechef
 {
 	public static void main (String[] args)

@@ -4,31 +4,25 @@
 
 ## Problem
 
-### Table of any number
+### Factorial of any number
 
-Write a program which does the following:
+Write a program that does the following:
 
-- Create a variable n and store the user defined input from console in n.
-- Output to the console the multiplication table for n up to 10: In the previous module we manually entered each row of the table. In this problem - use loops to generate the table.
+- Declare an integer variable num and initialize it to a user defined input.
+- Output to the console the factorial of num: Remember to use loops for this problem. Factorial of a number n is the product of all the numbers from 1 to n. Factorial of a number(n) = 1  *2*  3  *.....*  (n-1) * n.
+
+Hint: You have to use another variable to store the answer.
+
 ### Sample 1:
 Input
 Output
 
 ```
-5
+6
 ```
 
 ```
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
-5 x 5 = 25
-5 x 6 = 30
-5 x 7 = 35
-5 x 8 = 40
-5 x 9 = 45
-5 x 10 = 50
+720
 ```
 
 ## Solution
@@ -36,7 +30,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T16:23:02.778Z  
+**Submitted:** 2026-08-25T16:26:47.345Z  
 
 ```java
 import java.util.Scanner;
@@ -45,16 +39,19 @@ class Codechef
 {
 	public static void main (String[] args)
 	{
-		// Update the blank given below.
 		Scanner read = new Scanner(System.in);
-		int n = read.nextInt();
-		for(int i = 1; i <= 10; i++){
-		    int res = n * i ;
-		    System.out.println(n + " x " + i + " = " + res);
+		int num = read.nextInt();
+		int fact = 1;
+		for(int i = 1; i <= num; i++){
+		    fact = fact * i;
+		    
+		    
 		}
+		    System.out.println(fact);
+		//  Write your code here
+		
 	}
 }
-
 ```
 
 ---

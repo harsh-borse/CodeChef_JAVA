@@ -4,21 +4,14 @@
 
 ## Problem
 
-### Count of Digits
+### Prime Number
 
-Chef's coding journey continues.
-Chef was given an integer input $N$ - he needs to find the number of digits in the given integer.
+The last challenge of the while loop.
 
-- Let's assume the number of digits in $N$ is $x$.
-- Whenever we divide a number by $10$ and store it in an integer, the right-most digit of that number gets removed.
-- Since $1$ digit gets removed each time we divide a number by $10$, thus the total number digits we can remove from a number are the total number of digits in the number.
-- Thus, we can divide $N$ by $10$, $x$ times before it becomes $0$, after which the division will not affect the number and it will remain $0$(as $0$ divided by anything is still $0$).
-- So, If we keep dividing the integer $N$ by $10$ in a loop, till it reaches $0$, the loop will execute $x$ times.
-- Now, we can just count how many times the loop was executed, by starting a count from $0$ and increasing the count each time the loop executes.
-- Here, we can get the number of digits in $N$ in count.
+Chef wants to write a code which checks if a given number is prime.
 
-Based on this, Help him complete the `while` loop.
-
+- You are given a whole number N.
+- Your task is to determine if N is a prime number or not and print "Yes" if it is prime, or "No" if it is not.
 ### Sample 1:
 Input
 Output
@@ -28,7 +21,7 @@ Output
 ```
 
 ```
-5
+No
 ```
 
 ### Sample 2:
@@ -36,11 +29,11 @@ Input
 Output
 
 ```
-3246
+13
 ```
 
 ```
-4
+Yes
 ```
 
 ## Solution
@@ -48,7 +41,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T16:55:31.444Z  
+**Submitted:** 2026-08-25T16:16:28.368Z  
 
 ```java
 import java.util.Scanner;
@@ -58,17 +51,24 @@ class Codechef
 	public static void main (String[] args) 
 	{
 		Scanner scanner = new Scanner(System.in);
-        int num, count = 0;
-        num = scanner.nextInt();
 
-        while (num != 0) {
-            num = num / 10;
-            count++;
-            
+        int n = scanner.nextInt();
+        int i = 2;
+        boolean isPrime = true; // Assum n is prime.
+
+        while (i < n) {
+           if( n % i == 0){
+               isPrime = false;
+           } 
+            i++;
             // Update your code below this line.
             
         }
-        System.out.println(count);
+        if (isPrime) {
+            System.out.println("Yes");
+        } else {
+            System.out.println("No");
+        }
 	}
 }
 

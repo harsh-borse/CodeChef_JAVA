@@ -4,25 +4,40 @@
 
 ## Problem
 
-### Factorial of any number
+### Fibonacci Series
 
-Write a program that does the following:
+You are given an integer $N$.
 
-- Declare an integer variable num and initialize it to a user defined input.
-- Output to the console the factorial of num: Remember to use loops for this problem. Factorial of a number n is the product of all the numbers from 1 to n. Factorial of a number(n) = 1  *2*  3  *.....*  (n-1) * n.
+You need to output the first $N$ numbers of the Fibonacci Series.
+Check the sample output given below.
 
-Hint: You have to use another variable to store the answer.
+ **Note:**  A Fibonacci number is a series of numbers in which each number is obtained by adding the two preceding numbers.
+
+F1 = 0, F2 = 1
+FN = FN-2 + FN-1
 
 ### Sample 1:
 Input
 Output
 
 ```
-6
+5
 ```
 
 ```
-720
+0 1 1 2 3
+```
+
+### Sample 2:
+Input
+Output
+
+```
+8
+```
+
+```
+0 1 1 2 3 5 8 13
 ```
 
 ## Solution
@@ -30,7 +45,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-25T16:30:04.765Z  
+**Submitted:** 2026-08-26T17:18:49.906Z  
 
 ```java
 import java.util.Scanner;
@@ -39,16 +54,22 @@ class Codechef
 {
     public static void main(String[] args)
     {
-        Scanner read = new Scanner(System.in);
-        int num = read.nextInt();
-        int fact = 1;
-        for (int i = 1; i <= num; i++) {
-            fact = fact * i;
+        Scanner scanner = new Scanner(System.in);
+
+        int N;
+        N = scanner.nextInt();
+
+        int a = 0;
+        int b = 1;
+        for (int i = 1; i <= N; i++) {
+            System.out.println(a + " ");
+
+            int next = a + b;
+            a = b;
+            b = next;
 
 
         }
-        System.out.println(fact);
-        //  Write your code here
 
     }
 }

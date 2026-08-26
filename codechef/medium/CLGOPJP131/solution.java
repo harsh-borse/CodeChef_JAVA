@@ -4,16 +4,22 @@ class Codechef
 {
     public static void main(String[] args)
     {
-        Scanner read = new Scanner(System.in);
-        int num = read.nextInt();
-        int fact = 1;
-        for (int i = 1; i <= num; i++) {
-            fact = fact * i;
+        Scanner scanner = new Scanner(System.in);
+
+        int N;
+        N = scanner.nextInt();
+
+        int a = 0;
+        int b = 1;
+        for (int i = 1; i <= N; i++) {
+            System.out.println(a + " ");
+
+            int next = a + b;
+            a = b;
+            b = next;
 
 
         }
-        System.out.println(fact);
-        //  Write your code here
 
     }
 }

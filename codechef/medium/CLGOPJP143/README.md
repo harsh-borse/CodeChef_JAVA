@@ -4,14 +4,35 @@
 
 ## Problem
 
-_Description not available._
+### Another Pattern Problem
+
+Go ahead and practice another problem.
+
+Given an integer $N$ - print a number pattern of height $N$.
+Check the sample output given below.
+
+### Sample 1:
+Input
+Output
+
+```
+5
+```
+
+```
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T17:37:59.939Z  
+**Submitted:** 2026-08-27T17:42:40.207Z  
 
 ```java
 // Update the code below to solve the problem.
@@ -19,17 +40,15 @@ import java.util.Scanner;
 
 class Codechef
 {
-	public static void main (String[] args)
+	public static void main (String[] args) 
 	{
-		Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         
-        for(int i=1 ; i <=n ; i++)
+        for(int i = 1; i<= n; i++)
         {
-            for(int j=1; j<= n; j++)
-            {
-                System.out.print("* ");
-                
+            for(int j = 1; j<= i; j++){
+                System.out.print(j +" ");
             }
             System.out.println();
         }

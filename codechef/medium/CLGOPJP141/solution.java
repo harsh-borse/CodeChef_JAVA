@@ -12,7 +12,7 @@ class Codechef
             {
                 System.out.println("*");
             }
-            System.out.println();
+           
         }
 	}
 }

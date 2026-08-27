@@ -41,7 +41,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T17:33:46.900Z  
+**Submitted:** 2026-08-27T17:28:35.481Z  
 
 ```java
 import java.util.Scanner;
@@ -56,9 +56,9 @@ class Codechef
         {
             for (int j = 1; j <= i; j++) 
             {
-                System.out.print("* ");
+                System.out.println("*");
             }
-            System.out.println();
+           
         }
 	}
 }

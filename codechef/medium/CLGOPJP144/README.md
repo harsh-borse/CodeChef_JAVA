@@ -32,7 +32,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T18:03:23.989Z  
+**Submitted:** 2026-08-27T18:03:29.961Z  
 
 ```java
 // Update the code below to solve the problem.

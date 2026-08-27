@@ -4,23 +4,16 @@
 
 ## Problem
 
-### Nested loops
+### Nested loops continued
 
-We learned about `For and While` loops.
+Ok - try out a problem yourself.
 
-Let's discuss `Nested` loops.
+### Task
 
-Nested loops are a powerful programming construct where one loop is placed inside another loop.
+Given an integer $N$ - create a square pattern of side $N$.
 
-Let us understand this through an example - by printing a `Right Triangle`.
-Suppose you want to print a right triangle of height `n`, where `n` is the number of rows.
+Check the sample output given below for $N$ = 4.
 
-Review the code in the IDE and click on 'Submit' to see the result.
-
-In this example:
-
-- The outer loop controls the number of rows.
-- The inner loop controls the number of stars printed in each row, forming the right triangle pattern.
 ### Sample 1:
 Input
 Output
@@ -30,9 +23,9 @@ Output
 ```
 
 ```
-*
- ** 
- **  *
+ **   ** 
+ **   ** 
+ **   ** 
  **   ** 
 ```
 
@@ -41,25 +34,29 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T17:34:17.333Z  
+**Submitted:** 2026-08-27T17:37:10.691Z  
 
 ```java
+// Update the code below to solve the problem.
 import java.util.Scanner;
+
 class Codechef
 {
 	public static void main (String[] args)
 	{
-        Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-
-        for (int i = 1; i <= n; i++) 
+        
+        for(int i=1 ; i <=n ; i++)
         {
-            for (int j = 1; j <= i; j++) 
+            for(int j=1; j<= n; j++)
             {
                 System.out.print("* ");
+                
             }
             System.out.println();
         }
+
 	}
 }
 

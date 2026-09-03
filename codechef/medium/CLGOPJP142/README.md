@@ -34,7 +34,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T17:37:57.817Z  
+**Submitted:** 2026-09-03T12:27:17.430Z  
 
 ```java
 // Update the code below to solve the problem.
@@ -53,8 +53,10 @@ class Codechef
             {
                 System.out.print("* ");
                 
+                
             }
             System.out.println();
+          
         }
 
 	}

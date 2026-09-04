@@ -1,28 +1,40 @@
-// Update the code below to solve the problem.
 import java.util.Scanner;
-
 
 class Codechef
 {
-	public static void main (String[] args) 
-	{
-		Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         
-        for(int i = 1; i <= N; i++)
+        for(int i = 1; i <= n ; i++)
         {
-            for(int j = 1; j<= N - i; j++)
+            for(int j = 1; j <= n - i; j++)
             {
                 System.out.print(" ");
                 
             }
-            for(int j = 1; j<= 2*i - 1; j++)
+            for(int j = 1; j <= 2* i - 1; j++)
             {
                 System.out.print("*");
             }
             System.out.println();
+            
         }
-        // Update the code below this line.
-
-	}
+        for(int i = n - 1; i >= 1; i--)
+        {
+            for(int j = 1; j <= n - i; j++)
+            {
+                System.out.print(" ");
+            }
+            
+            for(int j = 1; j <= 2*i - 1; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+            
+        }
+        
+    }
 }

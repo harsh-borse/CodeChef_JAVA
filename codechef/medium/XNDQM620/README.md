@@ -4,25 +4,36 @@
 
 ## Problem
 
-_Description not available._
+### Declare an Array of City Name
+
+A program needs to declare an array for city names but not initialize it immediately. Complete the program by filling in the missing parts to ensure it correctly declares an array for city names.
+
+ **Expected Output:** 
+
+```
+Array for city names declared but not yet initialized.
+
+```
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-04T08:17:03.528Z  
+**Submitted:** 2026-09-04T08:20:57.293Z  
 
 ```java
 // This is a class named Codechef
 class Codechef {
     public static void main(String[] args) {
-
-        String[] cityNames;
-
+        
+        // Declare an array 
+        String[] citynames;
+        
         System.out.println("Array for city names declared but not yet initialized.");
     }
 }
+
 
 ```
 

@@ -4,26 +4,38 @@
 
 ## Problem
 
-### Coding problem - 1
+### Coding problem - 2
 
-Let us solve some problems involving Nested loops.
+Given an integer $N$ - you need to generate a diamond pattern.
+Check the sample input below for $N = 4$.
 
-Given an integer $N$ - you need to generate a pyramid pattern.
-Check the sample input below for $N = 5$.
+```
+   *
+  ***
+   *
+  ***
+   *
+  ***
+   *
+
+```
 
 ### Sample 1:
 Input
 Output
 
 ```
-5
+4
+
 ```
 
 ```
-        *    
-      ***   
-      *  
-    *** 
+     *
+   ***
+    *
+  ***
+    *
+   ***
     *
 ```
 
@@ -32,38 +44,49 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-27T18:03:53.478Z  
+**Submitted:** 2026-09-04T08:11:14.481Z  
 
 ```java
-// Update the code below to solve the problem.
 import java.util.Scanner;
-
 
 class Codechef
 {
-	public static void main (String[] args) 
-	{
-		Scanner scanner = new Scanner(System.in);
-        int N = scanner.nextInt();
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         
-        for(int i = 1; i <= N; i++)
+        for(int i = 1; i <= n ; i++)
         {
-            for(int j = 1; j<= N - i; j++)
+            for(int j = 1; j <= n - i; j++)
             {
                 System.out.print(" ");
                 
             }
-            for(int j = 1; j<= 2*i - 1; j++)
+            for(int j = 1; j <= 2* i - 1; j++)
             {
                 System.out.print("*");
             }
             System.out.println();
+            
         }
-        // Update the code below this line.
-
-	}
+        for(int i = n - 1; i >= 1; i--)
+        {
+            for(int j = 1; j <= n - i; j++)
+            {
+                System.out.print(" ");
+            }
+            
+            for(int j = 1; j <= 2*i - 1; j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+            
+        }
+        
+    }
 }
-
 ```
 
 ---

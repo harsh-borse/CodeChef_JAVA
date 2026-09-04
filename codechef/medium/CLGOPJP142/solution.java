@@ -14,9 +14,7 @@ class Codechef
             {
                 System.out.print("* ");
                 
-                
             }
-            System.out.println();
           
         }
 

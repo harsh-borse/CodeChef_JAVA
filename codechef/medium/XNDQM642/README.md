@@ -4,16 +4,34 @@
 
 ## Problem
 
-_Description not available._
+### MCQ - Find the difference
+
+What will be the output of the following Java program?
+
+```
+class Codechef {
+    public static void main(String[] args) {
+        int[] values = {20, 15, 10, 5, 0};  
+        int difference = values[0];  
+
+        for (int i = 1; i < values.length - 1; i++) {  
+            difference -= values[i];  
+        }
+
+        System.out.println("Difference: " + difference);
+    }
+}
+
+```
 
 ## Solution
 
-**Language:** Java  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T13:12:34.695Z  
+**Submitted:** 2026-09-08T13:15:33.514Z  
 
-```java
+```cpp
 class Codechef {
     public static void main(String[] args) {
         int[] scores = {85, 90, 78, 92, 88}; // Declare and initialize array

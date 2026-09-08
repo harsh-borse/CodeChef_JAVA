@@ -4,29 +4,29 @@
 
 ## Problem
 
-### Array Length Property
+### Office Departments Capacity
 
-In this task, you need to print the number of elements in an array using the array's length property. Complete the following code:
+In this example, we demonstrate how to display  **department capacities**  using an  **integer**  array in Java. We also show how to determine the total number of departments using the length property.
+
+ **When executed, the code will show:** 
 
 ```
-class Codechef {
-    public static void main(String[] args) {
-        int[] numbers = {5, 10, 15, 20, 25};
-        int size = __ ; 
-        System.out.println("Array Size: " + size);
-    }
-}
+Number of Departments: 4  
+Capacity of Department 1: 10  
+Capacity of Department 2: 15  
+Capacity of Department 3: 8  
+Capacity of Department 4: 20
 
 ```
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-08T12:51:38.864Z  
+**Submitted:** 2026-09-08T12:51:03.725Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
         // Initialize an array with department capacities
